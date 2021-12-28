@@ -17,9 +17,6 @@ while True:
     elif matchup == 'stop':
         break
 
-    elif matchup not in possibleOpponents or faced:
-        print('Player not found.')
-
     else:
         if len(possibleOpponents) > 3:
             if matchup in possibleOpponents:
