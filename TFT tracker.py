@@ -1,6 +1,10 @@
-possibleOpponents = ['agon', 'gv8', 'scarra', 'kiyoon', 'k3soju', 'robinsongz', 'kurumx']
+possibleOpponents = []
 faced = []
 
+for i in range(8):
+	opp = input('enter opponents sequentially')
+	possibleOpponents.append(opp)
+    
 while True:
     matchup = input("Enter the most recent opponent:")
     if len(possibleOpponents) > 3:
