@@ -1,7 +1,7 @@
 possibleOpponents = []
 faced = []
 
-for i in range(8):
+for i in range(7):
 	opp = input('enter opponents sequentially')
 	possibleOpponents.append(opp)
     
